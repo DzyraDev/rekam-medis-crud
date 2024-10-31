@@ -1,4 +1,3 @@
-﻿# rekam-medis
 # rekam-medis-crud
 
 Features
@@ -21,12 +20,8 @@ Features
 https://github.com/DzyraDev/rekam-medis-crud/
 
 
- masuk ke foldernya
-rekam-medis-crud
-
- install semua package
-yarn install
-
+# masuk ke foldernya
+cd rekam-medis-crud
 
 
 setelah itu, buat database pada pgadmin4(postgreesql) dengan nama database yang sama seperti file Database.js (db_rekam_medis) dan sesuaikan username dan passwordnya sesuai setingan database anda
