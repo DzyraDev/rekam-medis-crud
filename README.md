@@ -21,30 +21,30 @@ Features
 https://github.com/DzyraDev/rekam-medis-crud/
 
 
-# masuk ke foldernya
+ masuk ke foldernya
 rekam-medis-crud
 
-# install semua package
+ install semua package
 yarn install
 
 
 
-# setelah itu, buat database pada pgadmin4(postgreesql) dengan nama database yang sama seperti file Database.js (db_rekam_medis) dan sesuaikan username dan passwordnya sesuai setingan database anda
+setelah itu, buat database pada pgadmin4(postgreesql) dengan nama database yang sama seperti file Database.js (db_rekam_medis) dan sesuaikan username dan passwordnya sesuai setingan database anda
 
-# lalu buka terminal ketikkan 
+ lalu buka terminal ketikkan 
 
 -cd backend
 
 setelah itu jalankan perintah nodemon index untuk menjalankan backend dan migrasi model ke database postgree
 
-# lalu buka terminal kedua ketikkan 
+lalu buka terminal kedua ketikkan 
 
 cd fe-medis
 
-setelah itu jalankan perintah yarn install lalu jalankan yarn start  lalu buka browser dengan url: http://localhost:8000/
+setelah itu jalankan perintah yarn install lalu jalankan yarn start  lalu buka browser dengan url: http://localhost:3000/
 
 untuk login dengan admin pertama buka postman terlebih dahulu dan isikan body seperti dibawah ini pada url http://localhost:5000/register dengan method POST:
-
+```
  {
      "name": "admin",
      "email": "admin@gmail.com",
@@ -54,7 +54,7 @@ untuk login dengan admin pertama buka postman terlebih dahulu dan isikan body se
  }
 
 
- Setelah register berhasil silahkan login pada http://localhost8000/login dengan email dan password dibawah ini:
+ Setelah register berhasil silahkan login pada http://localhost3000/login dengan email dan password dibawah ini:
  
     "email": "admin@gmail.com",
     "password": "admin"
